@@ -8,6 +8,10 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Install
 yarn 
+antdv : yarn add ant-design-vue@4.x
+npm install unplugin-vue-components -D
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
 ## Start App
 yarn dev

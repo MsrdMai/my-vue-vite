@@ -1,10 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import { h } from 'vue';
 import { SearchOutlined } from '@ant-design/icons-vue';
+import Navbar from './components/Navbar/Navbar.vue';
 </script>
 
 <template>
+
+  <Navbar/>
+  <div class="container mx-auto mt-5">
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
@@ -36,7 +39,7 @@ import { SearchOutlined } from '@ant-design/icons-vue';
   <a-button type="primary" :icon="h(SearchOutlined)" v-on:click="showInfo">Info</a-button>
 </article>
 
-
+</div>
 </template>
 
 <script>
